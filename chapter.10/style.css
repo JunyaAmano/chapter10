@@ -12,8 +12,9 @@ header {
   background-color: #ff9a4b;
 }
 
-.main {
-  margin: 50px;
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -65,32 +66,27 @@ footer {
   background-color: #aaaaaa;
 }
 
-@media screen and (max-width: 425px) {
-  .header {
+@media screen and (max-width: 768px) {
+
+  header {s
     width: 100%;
   }
 
-  .main {
+  main {
     width: 100%;
     display: block;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
   }
-
   .content {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 20px;
+    padding-top: 1px;
   }
 
   .content-img {
-    height: 150px;
-    margin: 0 auto;
+    width: 95%;
   }
 
   footer {
-    display: none;
+    width: 100%;
   }
-}
